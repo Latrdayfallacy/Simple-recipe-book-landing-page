@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second menu Project</title>
+        <meta charset="utf-8">
+        <title>CSSbasic</title>
+        <style>
+        
+            body{background-color:rgb(110, 92,                    110);}
+        h1{color:gold;}
+        h2{color:gold;}
+        h2{background-color:maroon;}
+        #cook-times-rigatoni{color:gold;}
+        #serving-size-rigatoni{color:gold;}
+        #rigatoni-recipe-text{color:gold;}
+        #rigatoni-ingredients-quantity-table
+                            {color:maroon;}
+                            
+        
+        </style>
+    </head>
+    <body>
+       
+        <h1>Die Maschine's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <!--The following is the string for rigatoni internal hyperlink-->
+            <li><a href="#rigatoni-interal-link"><strong> Rigatoni</strong></a></li>
+            
+            <!--The following is the internal hyperlink for Spaetzle-->
+            <li><strong>Spaetzle</strong></li>
+            
+        </ol>
+        <!--This is the image link for our spaetzle-->
+        <h2>Rigatoni</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Penne_Pasta_cooked_in_Red_Sauce_and_Vodka.jpg" width="250">
+        <ul>
+            <li id="cook-times-rigatoni">Prep                       Time:35min.<br>Bake Time               :30min.</li>
+            <li id="serving-size-rigatoni"                  >Serves: 12</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr id="rigatoni-ingredients-quantity-table">
+                    <th id="rigatoni-ingredient             s-internal-link">Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="rigatoni-recipe-text">
+            <tr>
+                <td>Rigatoni pasta</td>
+                <td>16oz</td>
+            </tr>
+            <tr>
+                <td>Medium sweet red pepper,                    chopped</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Small onion, chopped</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Garlic cloves, minced</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Heavy whipping cream</td>
+                <td>3/4 cup</td>
+            </tr>
+            <tr>
+                <td>Crushed tomatoes in puree                   </td>
+                <td>28oz</td>
+            </tr>
+            <tr>
+                <td>Tomatoe paste</td>
+                <td>6oz</td>
+            </tr>
+            <tr>
+                <td>Italian seasoning</td>
+                <td>2 teaspoons</td>
+            </tr>
+            <tr>
+                <td>Crushed red pepper flakes                   </td><td>1/2 teaspoon</td>
+            </tr>
+            <tr>
+                <td>Whole-milk ricotta cheese                  </td><td>15oz</td>
+            </tr>
+            <tr>
+                <td>Shredded Parmesan cheese,                      divided</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Fresh goat cheese</td>
+                <td>4oz></td>
+            </tr>
+            <tr>
+                <td>Large egg, lightly beaten                  </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Salt</td>
+                <td>1 teaspoon</td>
+            </tr>
+            <tr>
+                <td>Pepper</td>
+                <td>1/2 teaspoon</td>
+            </tr>
+            <tr>
+                <td>Fresh mozzarella, cubed</td                 >
+                <td>8oz</td>
+            </tr>
+            <tr>
+                <td>Torn Basil,optional</td>
+                <td>To taste</td>
+            </tr>
+            </tbody>
+            
+        </table>
+        
+        <p><strong>Magical cooking fairy:</strong> Unfortunately for you there aren't any magical cooking fairy's that we can utilize to prepare this recipe, thankfully it is a rather simply process.<br>
+        <ol>
+            <li>Begin by preheating the oven to 350°. In a 6-qt. stockpot, cook rigatoni according to package directions. Drain; transfer to a bowl.</li>
+            <li>In same stockpot, cook and crumble sausage with red pepper and onion over medium heat until meat is no longer pink. Add garlic;cook 1 minute longer. Drain. Add cream; cook 5 minutes, stirring occasionally. Stir in tomatoes, tomato paste, Italian seasoning and pepper flakes. Cook, uncovered, over medium-low heat until sauce thickens slightly, 5-8 minutes. Meanwhile, combine ricotta, 1/2 cup Parmesan, goat cheese, egg and seasonings.</li>
+            <li>Stir rigatoni into meat sauce. Spread 3 cups into each of the two greased 11x7-in. baking dishes. Top each with half of cheese mixture, then half of remaining pasta mixture.</li>
+            <li>Bake, covered, 25 minutes. Sprinkle with mozzarella and remaining Parmesan cheese. Bake, uncovered, until cheeses are melted, about 5 minutes. If desired, sprinkle with basil.</li>
+            <li>Pro tip from the chef, you are able to greatly reduce the amount of prep and cook time you must personally oversee by simply creating a crotch goblin and allowing it to marinate in life's juices for a decade. Marination time subject to change.
+        </ol>
+</p>
+        
+    <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
